@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-block {
+    flex: 1 0 22%; /* 設定每個 product-block 的寬度 */
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.product-block img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-block h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.product-block p {
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+/* 商品評分樣式 */
+.product-block .rating {
+    font-weight: bold;
+    background-color: #99ccff; /* 設定另一種背景色 */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer-buttons {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    transition: bottom 0.3s ease; /* 添加過渡效果 */
+    z-index: 1000; /* 確保位於最上層 */
+}
+
+
+.footer-buttons .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
