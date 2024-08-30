@@ -36,4 +36,4 @@
      - 依據許願板ID**查詢**
 * **總結**: 這個網站的目標是提供一個便捷的平台，讓使用者輕鬆地瀏覽商品、報告問題，同時促進互動，讓每位使用者都有參與的機會，進一步優化海洋大學的智fun機使用體驗。
 ## 二、 E-R Diagram
-![image](https://hackmd.io/_uploads/S15wFV4u6.png)
+![image](https://github.com/user-attachments/assets/c7dbce95-a43c-403e-896a-ec06e8caface)
